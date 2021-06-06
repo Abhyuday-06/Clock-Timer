@@ -5,8 +5,8 @@
             Timer
         </title>
         <script>
-            let seconds = 55;
-            let min = 2;
+            let seconds = 0;
+            let min = 0;
             function count(){
                 if (seconds === 59 ){
                     seconds = 0;
@@ -34,9 +34,9 @@
     </head>
     <body>
         <h1>Seconds : </h1>
-        <h1 id="Seconds">55</h1>
+        <h1 id="Seconds">0</h1>
         <h1>Minutes : </h1>
-        <h1 id="Minutes">2</h1>
+        <h1 id="Minutes">0</h1>
         <button onclick="count()">Seconds +1 </button>
         <button onclick="setInterval(Timer,1000)">Start Timer</button>
         <button onclick="">Stop timer</button>
